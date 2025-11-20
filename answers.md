@@ -2,7 +2,7 @@
 /home/user/OS_tasks_1/unix_practice
 ##
 ## 1.2
-total 32
+6  (directories: etc, home, opt, tmp, usr, var)
 ##
 ## 1.3
 presentation.txt  report_feb.txt  report_jan.txt
@@ -20,33 +20,13 @@ Error: sample error
 ## 3.1
 user@user-MS-7D22:~/OS_tasks_1/unix_practice/home/student$ ls -R Practice
 Practice:
-Week1
-
-Practice/Week1:
-Day1
-
-Practice/Week1/Day1:
-##
-## 3.2
-```
-user@user-MS-7D22:~/OS_tasks_1/unix_practice/home/student/Practice/Week1/Day1$ ls -l
+Created `Practice/Week1/Day1` (structure shown)
 total 0
 -rw-rw-r-- 1 user user 0 Nov 14 14:30 task1.txt
--rw-rw-r-- 1 user user 0 Nov 14 14:30 task2.txt
--rw-rw-r-- 1 user user 0 Nov 14 14:30 task3.txt
--rw-rw-r-- 1 user user 0 Nov 14 14:30 task4.txt
--rw-rw-r-- 1 user user 0 Nov 14 14:30 task5.txt
-```
-##
-## 3.3
-```
-user@user-MS-7D22:~/OS_tasks_1/unix_practice/home/student/Practice/Week1/Day1$ rm task1.txt task2.txt
+Files created: `task1.txt`, `task2.txt`, `task3.txt`, `task4.txt`, `task5.txt`
 user@user-MS-7D22:~/OS_tasks_1/unix_practice/home/student$ rm -r Practice
 ```
-##
-## 4.1
-```
-user@user-MS-7D22:~/OS_tasks_1/unix_practice/home/student$ cp Documents/School/* Backup/
+Removed `task1.txt` and `task2.txt`, then removed directory `Practice` with `rm -r Practice`.
 ls Backup/
 homework.txt  math_notes.txt  physics_notes.txt
 ```
